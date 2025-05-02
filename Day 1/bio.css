@@ -1,0 +1,38 @@
+h1{
+    font-style: italic;
+    color: rgb(204, 0, 255);
+    text-align: center;
+    background-color: bisque;
+    border: 2px solid;
+}
+h1{
+    border-color: rgb(170, 10, 10);
+}
+
+body{
+    background-color: rgb(205, 255, 255);
+}
+ul{
+    text-align: center;
+    
+}
+p{
+    color: blueviolet;
+}
+
+li{
+    text-align: center;
+}
+
+img{
+border: 3px dashed blue;     
+border: 4px dotted green;   
+border: 6px double purple;   
+border-radius: 10px;   
+width: 400px;
+background-color: antiquewhite;
+}
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
