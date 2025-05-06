@@ -1,0 +1,104 @@
+
+.flex-container{
+    border: 2px solid #ff00d9;
+    height: 200px;
+    display: flex;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+
+}
+
+.box-one{
+    flex-grow: 1;
+    background-color: aliceblue;
+}
+
+.box-two{
+    flex-grow: 2;
+    background-color: aqua;
+}
+
+.box-three{
+    flex-grow: 3;
+    background-color: rgb(64, 0, 255);
+}
+
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #fff;
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 90%;
+    max-width: 280px;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+}
+
+/* Optional: center the cards as a group */
+body {
+    text-align: center;
+}
+
+/* Responsive: stack cards on small screens */
+@media (max-width: 768px) {
+    .card {
+        display: block;
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+
+div{
+    width: 95%;
+
+    column-count: 3;
+    column-gap: 20px;
+    text-align: justify;
+    column-rule: 1px solid goldenrod;
+}
+
+.flex-container{
+    border: 2px solid #ff00d9;
+    height: 200px;
+    display: flex;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+
+}
+
+.box-one{
+    flex-grow: 1;
+    background-color: aliceblue;
+}
+
+.box-two{
+    flex-grow: 2;
+    background-color: aqua;
+}
+
+.box-three{
+    flex-grow: 3;
+    background-color: rgb(64, 0, 255);
+}
