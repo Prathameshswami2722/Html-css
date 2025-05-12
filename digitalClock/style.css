@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: radial-gradient(circle at center, #0d0d0d 0%, #000000 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Orbitron', sans-serif;
+  overflow: hidden;
+}
+
+#clock {
+  font-size: 6rem;
+  padding: 40px 80px;
+  color: #00ffcc;
+  background: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 255, 200, 0.3);
+  border-radius: 30px;
+  text-shadow:
+    0 0 10px #00ffe5,
+    0 0 20px #00ffe5,
+    0 0 30px #00ffcc;
+  box-shadow:
+    0 0 30px rgba(0, 255, 200, 0.3),
+    0 0 60px rgba(0, 255, 200, 0.4),
+    inset 0 0 20px rgba(0, 255, 200, 0.1);
+  backdrop-filter: blur(16px);
+  transition: all 0.4s ease;
+  animation: glow-pulse 3s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow:
+      0 0 30px rgba(0, 255, 200, 0.4),
+      0 0 60px rgba(0, 255, 200, 0.5),
+      inset 0 0 20px rgba(0, 255, 200, 0.2);
+  }
+  50% {
+    box-shadow:
+      0 0 60px rgba(0, 255, 200, 0.8),
+      0 0 120px rgba(0, 255, 200, 0.7),
+      inset 0 0 30px rgba(0, 255, 200, 0.3);
+  }
+}
