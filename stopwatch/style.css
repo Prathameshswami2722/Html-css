@@ -1,0 +1,52 @@
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f9f7f7, #dbe2ef);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #clock {
+    font-size: 4.5rem;
+    color: #112d4e;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(17, 45, 78, 0.15);
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+  }
+
+  #clock:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(17, 45, 78, 0.25);
+  }
+
+  div {
+    margin-top: 25px;
+  }
+
+  button {
+    padding: 12px 28px;
+    margin: 0 10px;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #3f72af, #a9c9ff);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 12px rgba(63, 114, 175, 0.3);
+  }
+
+  button:hover {
+    background: linear-gradient(to right, #304b78, #89bfff);
+    transform: translateY(-3px);
+  }
+</style>
