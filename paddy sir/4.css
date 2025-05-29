@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+#toggleBtn {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#navLinks {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+#navLinks li {
+  margin: 5px 0;
+}
+
+#navLinks.hidden {
+  display: none;
+}
